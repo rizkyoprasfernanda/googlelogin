@@ -84,6 +84,10 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+
+        manifestPlaceholders = [
+        googleWebClientId: "368154632146-kje828t8a0o3r2dbpme4ilki67l3g4ca.apps.googleusercontent.com"
+    ]
     }
     signingConfigs {
         debug {
